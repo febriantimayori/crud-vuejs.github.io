@@ -32,8 +32,8 @@ export default {
   },
   data() {
     return {
-      // url: "http://localhost/laravel-rest-api/public/api/customers",
-      url: "http://localhost:3000/customers",
+      // url: "http://localhost:3000/customers",
+      url : "https://crud-vuejs-9d6d6-default-rtdb.asia-southeast1.firebasedatabase.app/",
       customers: [],
       form: { first_name: "", last_name: "", email: "", isEdit: false },
       loader: false
